@@ -1,0 +1,94 @@
+.header-bg {
+    display: flex;
+    background-color: teal;
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 2px solid white;
+}
+
+.header-bg label {
+    font-weight: 600;
+    color: white;
+}
+
+.main {
+    display: flex;
+    flex-wrap: nowrap;
+    height: 100vw;
+}
+
+.sideNav {
+    border-right: 1px solid white;
+    background-color: teal;
+    flex: 0 0 20%;
+}
+
+.main-content {
+    flex: 0 0 80%;
+    padding: 50px;
+}
+
+ul {
+    z-index: 1;
+    padding-top: 0px;
+    list-style: none;
+    margin-left: 0 !important;
+    margin: 0px;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    padding-inline-start: 0px;
+}
+
+ul li {
+    padding: 10px 20px 10px 10px;
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+}
+
+ul li:hover {
+    display: block;
+    background-color: #0f193b;
+    color: white;
+    font-size: 18px;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+table thead {
+    margin-bottom: 30px;
+}
+
+#table-header {
+    font-size: 25px;
+    padding: 15px;
+}
+
+table tr td {
+    padding: 20px;
+}
+
+input,
+button {
+    width: 200px;
+    height: 20px;
+    border: 2px solid green;
+}
+
+input:hover,
+button:hover {
+    border: 2px solid teal;
+}
+
+button {
+    width: 200px;
+    height: 30px;
+    border: 2px solid green;
+    color: white;
+    background-color: green;
+}
